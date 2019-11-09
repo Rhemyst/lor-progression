@@ -12,7 +12,8 @@ wildcards_per_week = 0*[ChampWildcardReward(), EpicWildcardReward()]
 nb_weeks = 16
 # Initial Content of the collection
 starter = [] # empty start
-#starter = [common_card]*6*6 + [rare_card]*4*6 + [epic_card]*6 # Starter kit
+starter = [common_card]*6*6 + [rare_card]*4*6 + [epic_card]*6 # Starter kit
+starter += [champ_card]*6 + [epic_card] *6 + [rare_card]*30 + [common_card]*72 # prologue
 # TODO content of the prologue path ?
 
 total_stats = []
